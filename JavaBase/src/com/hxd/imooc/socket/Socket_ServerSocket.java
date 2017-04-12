@@ -27,7 +27,7 @@ public class Socket_ServerSocket {
 			BufferedReader br = new BufferedReader(isr);
 			// 循环读取客户端信息
 			String s = null;
-			while ((s = br.readLine()) != null) {		//readline 是以\t \n 结束
+			while ((s = br.readLine())!=null) {		//readline 是以\t \n 结束
 				System.out.println("客户端输入的信息：" + s);
 			}
 			//socket.shutdownInput();// 关闭输入流
