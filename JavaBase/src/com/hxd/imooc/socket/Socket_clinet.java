@@ -22,7 +22,7 @@ public class Socket_clinet {
 			// 2.获取输出流 像服务器端发送信息
 			OutputStream os = socket.getOutputStream();// 字节流
 			PrintWriter pW = new PrintWriter(os);// 将输出流包装成打印流输出
-			pW.print("黄敏\n");
+			pW.print("黄敏1\n");
 			pW.flush();
 			//pW.close();
 			socket.shutdownOutput();		//用完之后  要关闭 流 不然  他会一直停在这

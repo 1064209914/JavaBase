@@ -13,9 +13,10 @@ public class Army implements Runnable {
 			//军队每次进攻5次
 			for(int i=1;i<6;i++){
 				System.out.println(Thread.currentThread().getName()+"军队第"+i+"次进攻");
+				//让出处理时间  下次  谁进攻 还不到呢 
 				Thread.yield();
 			}
-				//让出处理时间  下次  谁进攻 还不到呢
+				
 		}
 		System.out.println(Thread.currentThread().getName()+"进攻结束了");
 	}

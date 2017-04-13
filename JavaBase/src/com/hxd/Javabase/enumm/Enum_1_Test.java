@@ -36,6 +36,9 @@ public class Enum_1_Test {
 		default:
 			break;
 		}
+			System.out.println();
+			Enum_1 sta=	Enum_1.SAT;
+			System.out.println(sta);
 		EnumMap<Enum_1, Integer> enumMap = new EnumMap(Enum_1.class);
 		enumMap.put(Enum_1.MON, 1);
 		enumMap.put(Enum_1.THU, 4);
