@@ -1,5 +1,6 @@
 package com.hxd.imooc.thread;
 
+
 import lombok.Setter;
 
 public class Person implements Runnable {
@@ -20,7 +21,11 @@ public class Person implements Runnable {
 	public void run() {
 		while(flag){
 		piao.sellpiao();
-		
+		i=piao.sellpiao();
+		if (i<=0) {
+			flag=false;
+			//break;
+		}
 		}
 	}
 
