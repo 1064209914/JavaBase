@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.HashSet;
 
+import com.hxd.Javabase.annotation.ListDemo;
 import com.hxd.Javabase.generics.personTest;
 
 public class Test {
@@ -29,7 +30,7 @@ public class Test {
 		 */
 		PrintStream Pos = new PrintStream("E:\\vbox\\Person,txt");
 		// 获取整个类
-		Class c = Class.forName("java.lang.String");
+		Class c = ListDemo.class;
 		// new 个新对象
 		//Object o = c.newInstance();
 		// 定义一个可变长的字符串来存储属性
