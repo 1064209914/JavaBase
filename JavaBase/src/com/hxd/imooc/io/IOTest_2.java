@@ -19,7 +19,7 @@ public class IOTest_2 {
 		try {
 			String string;
 			string=bis.readLine();
-			while(!string.equals(null)){
+			while(!string.equals("null")){
 				bos.println(string);
 				bos.flush();
 				string=bis.readLine();
