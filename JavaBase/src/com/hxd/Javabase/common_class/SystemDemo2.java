@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author Administrator
  *
  */
-public class SystemDemo {
+public class SystemDemo2 {
 
 	public static void main(String[] args) {
 		//数组copy
